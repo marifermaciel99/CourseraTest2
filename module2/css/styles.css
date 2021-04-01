@@ -1,0 +1,175 @@
+*{box-sizing: border-box;}*
+body{font-family:cursive ;}
+
+h1{font-style:normal;
+    font-size: 175%;
+margin: auto;
+text-align: center;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+div#menu{margin:auto; text-align: center;
+}
+
+p#chicken, p#beef, p#sushi{text-align: center;
+font-size: 125%; font-weight: bold;}
+    
+
+#opcionc{background-color: coral;
+    width: 30%;
+    position:relative;
+    border: solid black 1px;
+    margin:10px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+#opcionb{background-color:skyblue;
+    width: 30%;
+    position:relative;
+    border: solid black 1px;
+    margin: auto;
+    display: inline-block;
+    margin-top: 0;
+}
+
+#opcions{background-color: rgb(82, 177, 63);
+    width: 30%;
+    position:relative;
+    border: solid black 1px;
+    margin:10px;
+    display: inline-block;
+    margin-top: 0;
+   
+}
+
+
+
+#chicken{width: 100px;
+    background-color: thistle;
+    position: relative;
+    top:0;
+    left: 0;
+    padding: 5px;
+    border: solid black 1px;
+    margin-top: -1px;
+    margin-right:-1px;
+    float: right;
+        
+      }
+
+#sushi{width: 100px;
+    background-color: thistle;
+    position: relative;
+    top:0;
+    left: 0;
+    padding: 5px;
+    border: solid black 1px;
+    margin-top: -1px;
+    margin-right:-1px;
+    float: right;
+       }
+
+       #beef{width: 100px;
+        background-color:rebeccapurple;
+        position: relative;
+        top:0;
+        left: 0;
+        padding: 5px;
+        border: solid black 1px;
+        margin-top: -1px;
+        margin-right:-1px;
+        float: right;
+        color: white;
+        font-weight: bold;
+      }
+
+p#dummies1,p#dummies2, p#dummies3{padding: 10px; text-align: left;}
+
+ /*simple responsible framework*/
+
+ 
+
+/*small devices*/
+
+@media(max-width:767px){
+
+        #opcionc{background-color: coral;
+            width: 70%;
+            position:unset;
+            border: solid black 1px;
+            margin:auto;
+            float: none;
+            margin-top: 0;
+        }
+        
+        #opcionb{background-color:skyblue;
+            width: 70%;
+            position:unset;
+            border: solid black 1px;
+            margin: auto;
+            float: none;
+            margin-top: 10px;
+        }
+        
+        #opcions{background-color: rgb(82, 177, 63);
+            width: 70%;
+            position:unset;
+            border: solid black 1px;
+            margin:auto;
+            float: none;
+            margin-top: 10px;
+           
+        }
+        
+        
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+    div#menu{margin:4%;
+    }
+
+    div#opcionc,div#opcionb{margin:auto;
+    text-align: left;
+margin-bottom: 2%;}
+    
+
+    #opcionc{background-color: coral;
+        width:49% ;
+        height: 147px;
+        position:relative;
+        border: solid black 1px;
+        float: left;
+        margin-bottom: 10px;
+        overflow: hidden;
+       /* display: inline-block;*/
+        
+    }
+    
+    #opcionb{background-color:skyblue;
+        width: 49%;
+        height: 147px;
+        position:relative;
+        border: solid black 1px;
+        float: right;
+        overflow: hidden;
+                    /*display: inline-block;*/
+        }
+
+
+        #opcions{background-color: rgb(82, 177, 63);
+            width: 100%;
+            position:relative;
+            border: solid black 1px;
+          /*  display:*/
+            margin-top:2%;
+            margin:0;
+            text-align: left;
+           
+        }
+        
+   /* p#dummies1{padding-bottom: 0}*/
+    
+}
+ 
